@@ -1,6 +1,3 @@
-#include <stdio.h>
-int main()
-{
-    printf("Hello Github~~~~Test~~~~")
-    return 1;
-}
+import tensorflow as tf
+sess=tf.Session()
+print(sess.run("Hello Tensorflow~"))
